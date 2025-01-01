@@ -38,7 +38,7 @@
 // GET... 
 // GET should NEVER be used for sending passwords or other sensitive information!
 
-if(isset($_GET["name"]) && isset($_GET["email"])){
+if(isset($_GET["name"]) && isset($_GET["email"])){ // get use korle data url e show kore
 
     $name = $_GET["name"];
     $mail = $_GET["email"];
